@@ -1,0 +1,162 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Apercu",-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+main {
+    height: 100vh;
+    width: 100%;
+    background-color: pink;
+}
+
+/* CABECERA PRINCIPAL */
+
+header > div:first-child {
+    background-color: rgba(255, 255, 255, 0.927);
+    height: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+header > div > h2 {
+    padding: 20px;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+header > div > nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header > div > nav > a {
+    text-decoration: none;
+    color: black;
+}
+
+header > div > nav > a:hover {
+    text-decoration: none;
+    color: blueviolet;
+}
+
+/* CABECERA SECUNDARIA */
+
+header > div:last-child {
+    background: url(media/035cfa010c5537ee006e47b954ef5a9f.jpg);
+    background-blend-mode: soft-light; background-color: rgba(0, 0, 0, 0.6);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 85vw;
+}
+
+header > div:last-child {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-weight: lighter;
+    font-size: 1.1em;
+}
+
+header > div:last-child > h4 {
+    padding: 20px;
+    font-weight: lighter;
+}
+
+header > div:last-child > p {
+    padding: 20px;
+}
+
+/* proyecto grafico */
+
+section > h3 {
+    text-align: center;
+    padding: 0.2em 0;
+    background-color: black;
+    color: #fff;
+    font-weight: lighter;
+}
+
+section > article {
+    width: 100%;
+    padding: 10px;
+    background-color: cornflowerblue;
+}
+
+
+section > article > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+section > article > div > img {
+    width: 50%;
+    height: 40vw;
+    border-radius: 100%;
+}
+
+
+section > article > div > h4 , p {
+    padding-bottom: 5px;
+    font-weight: normal;
+}
+
+
+/* CONTACTO */
+
+.section-form {
+    height: 30%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: black;
+}
+
+.section-form > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.section-form > form > label {
+}
+
+.section-form > form > label > input {
+    margin: 10px 0;
+    border: 3px rgb(68, 212, 106) solid;
+}
+
+.section-form > ul {
+    list-style: circle;
+    margin: 0 auto;
+}
+
+.section-form > ul > a {
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+
